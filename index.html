@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rukoilo</title>
+    <style>
+        /* Degradado de fondo optimizado */
+        body {
+            background: linear-gradient(180deg, #333 0%, #222 100%);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+        .logo-container {
+            width: clamp(150px, 40vw, 500px);
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 1.5s ease-out;
+            filter: drop-shadow(0 15px 25px rgba(0,0,0,0.4));
+        }
+        .letrar{
+            width: 25%;
+            height: auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="r.svg" class="letrar">
+        </svg>
+    </div>
+
+</body>
+</html>
